@@ -9,6 +9,10 @@ app.get('/new', (req, res) => {
 app.get('/', (req, res) => {
   res.send('server is runnint');
 });
+app.get('/person', (req, res) => {
+  res.send('server is runnint');
+});
+
 
  const PORT=3000;
 app.listen(PORT, () => {
