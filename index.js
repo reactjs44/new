@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
   res.send('server is runnint');
 });
 
-app.listen(3000, () => {
+ const PORT=3000;
+app.listen(PORT, () => {
   console.log('Express server initialized');
 });
