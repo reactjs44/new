@@ -2,6 +2,10 @@ import express from 'express';
 
 const app = express();
 
+app.get('/new', (req, res) => {
+  res.send('new server is runnint');
+});
+
 app.get('/', (req, res) => {
   res.send('server is runnint');
 });
